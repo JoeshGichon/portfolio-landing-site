@@ -27,6 +27,7 @@ html{
     justify-content: space-between;
     position: fixed;
     z-index: 1;
+    /* background-color: rgba(31, 30, 30, 0.24); */
 }
 #logo{
     height: 100px;
@@ -75,6 +76,7 @@ html{
     position: absolute;
     top: 470px;
     display: flex;
+    z-index: -1;
 }
 #service-header{
     margin-top: 50px;
@@ -117,6 +119,7 @@ html{
     width: 100vw;
     position: relative;
     left: 500px;
+    margin-left: -70px;
 }
 .projects-container img{
     height: 200px;
@@ -139,6 +142,28 @@ html{
 /* ----------------End Projects styles Section----------------------- */
 
 /* ----------------About Styles Section-------------------- */
+.about-me-container{
+    position: absolute;
+    top: 1350px;
+}
+.about-me-container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.about-me-container div{
+    display: flex;
+    align-items: center;
+}
+.about-me-container img{
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+.about-me-container p{
+    text-align: center;
+}
 /* ----------------End About Styles Section-------------------- */
 
 /* -------------------Contact Styles Section---------------------- */
