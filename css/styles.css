@@ -1,10 +1,65 @@
-/* ------------Navigation styles--------------------- */
-.navbar-brand img{
-    border-radius: 50%;
+h1{
+    font-size: 1.9rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+/* ------------Navigation styles Section--------------------- */
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+#logo{
     height: 100px;
-    margin-right: 200px;
+    border-radius: 50px;
+    margin-top: 10px;
 }
-.nav-link{
-    margin: 0 30px;
+#nav-links ul li{
+    display: inline;
 }
-/* ------------End Navigation styles--------------------- */
+#nav-links a{
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+#nav-links a:hover{
+    background-color: crimson;
+    border-radius: 20px;
+    padding: 10px;
+}
+/* ------------End Navigation styles Section--------------------- */
+
+/* --------------Introduction section styles--------------------- */
+.introduction-container{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+}
+/* --------------End Introduction section styles--------------------- */
+
+/* ------------Services Styles Section-------------------------- */
+/* ------------End Services Styles Section-------------------------- */
+
+/* ----------------Projects styles Section----------------------- */
+/* ----------------End Projects styles Section----------------------- */
+
+/* ----------------About Styles Section-------------------- */
+/* ----------------End About Styles Section-------------------- */
+
+/* -------------------Contact Styles Section---------------------- */
+/* -------------------End Contact Styles Section---------------------- */
