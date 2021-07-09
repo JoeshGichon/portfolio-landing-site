@@ -170,10 +170,12 @@ html{
 .contact-container{
     position: absolute;
     top: 1800px;
+    margin-bottom: 20px;
 }
 #contact-div{
     display: flex;
     justify-content: space-around;
+    box-shadow: 2px 2px 3px grey;
 }
 .contact-container div h3{
     text-align: center;
@@ -182,5 +184,16 @@ html{
     font-size: 1.4rem;
     font-weight: 500;
     color: black;
+}
+#contact-div form input,#contact-div form textarea{
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+}
+#contact-div form input:hover,#contact-div form textarea:hover{
+    cursor: pointer;
+}
+.contact-container button{
+    margin-bottom: 10px;
 }
 /* -------------------End Contact Styles Section---------------------- */
