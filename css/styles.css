@@ -100,6 +100,10 @@ html{
     text-align: left;
     font-size: 1.15rem;
 }
+.projects-container{
+    position: absolute;
+    top: 800px;
+}
 /* ------------End Services Styles Section-------------------------- */
 
 /* ----------------Projects styles Section----------------------- */
