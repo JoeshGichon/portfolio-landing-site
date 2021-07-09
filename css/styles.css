@@ -4,6 +4,9 @@ h1{
 h2{
     font-size: 1.6rem;
 }
+h2 span{
+    color: crimson;
+}
 h3{
     font-size: 1.4rem;
 }
@@ -65,16 +68,37 @@ html{
 #greetings h1,#greetings h2{
     text-transform: capitalize;
 }
-#greetings h2 span{
-    color: crimson;
-}
 /* --------------End Introduction section styles--------------------- */
 
 /* ------------Services Styles Section-------------------------- */
 .services-container{
     position: absolute;
-    top: 500px;
+    top: 470px;
     display: flex;
+}
+#service-header{
+    margin-top: 50px;
+    height: fit-content;
+    padding: 10px;
+    text-align: center;
+}
+.services-container div{
+    box-shadow: 2px 2px 3px grey;
+    padding: 10px;
+    margin: 0 20px;
+}
+.services-container div h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: black;
+}
+.services-container div p{
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    font-size: 1.15rem;
 }
 /* ------------End Services Styles Section-------------------------- */
 
