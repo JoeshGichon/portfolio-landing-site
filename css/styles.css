@@ -102,11 +102,40 @@ html{
 }
 .projects-container{
     position: absolute;
-    top: 800px;
+    top: 850px;
+    display: flex;
 }
 /* ------------End Services Styles Section-------------------------- */
 
 /* ----------------Projects styles Section----------------------- */
+.projects-container h2{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 700;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
+    position: relative;
+    left: 500px;
+}
+.projects-container img{
+    height: 200px;
+    width: auto;
+}
+.project-item{
+    padding: 10px 0 10px 10px;
+    margin: 10px 0 10px 0;
+}
+.project-item h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.project-item p{
+    padding: 10px;
+}
 /* ----------------End Projects styles Section----------------------- */
 
 /* ----------------About Styles Section-------------------- */
