@@ -71,6 +71,11 @@ html{
 /* --------------End Introduction section styles--------------------- */
 
 /* ------------Services Styles Section-------------------------- */
+.services-container{
+    position: absolute;
+    top: 500px;
+    display: flex;
+}
 /* ------------End Services Styles Section-------------------------- */
 
 /* ----------------Projects styles Section----------------------- */
