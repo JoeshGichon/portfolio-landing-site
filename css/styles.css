@@ -171,4 +171,15 @@ html{
     position: absolute;
     top: 1800px;
 }
+#contact-div{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-container div h3{
+    text-align: center;
+    margin: 20px 0;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
 /* -------------------End Contact Styles Section---------------------- */
