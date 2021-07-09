@@ -167,4 +167,8 @@ html{
 /* ----------------End About Styles Section-------------------- */
 
 /* -------------------Contact Styles Section---------------------- */
+.contact-container{
+    position: absolute;
+    top: 1800px;
+}
 /* -------------------End Contact Styles Section---------------------- */
