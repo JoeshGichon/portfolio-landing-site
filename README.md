@@ -1,21 +1,26 @@
-# {Portfolio landing page}
-#### {This site is a one page project that mainly forcus on the frontEnd }, {Friday, July, 2021}
-#### By **{John Gicho}**
+# Portfolio one page landing site
+#### This site is a one page website that mainly forcus on the frontEnd , Friday, July, 2021
+#### By **John Gicho**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+The above named website is a one page site that forcuses on what the website user is able to see on his/her web browser i.e front-end. The website main objective is to introduce me as a developer to the outside world thus it contains some of my portfolio projects as well as the links to their github repository where the code is available.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* HTML
+* CSS
+* Bootsrap v5
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+No known bugs at the momment.
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+*HTML
+*CSS
+*Twitter Bootsrap v5
+HTML lays the founadation of the website into place. CSS styles the available HTML elements making them visually appealing.Bootsrap makes the website mobile responsive site.
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+For more information, you can reach me through the following emails:
+*johngicho04@gmail.com.
+*joeshgichon56@gmail.com.
+*joeshgichon@yahoo.com
+Also my mobile contact is as follows:
+*+254 797737128
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+*MIT License*
+Copyright (c) 2021 **John_Gicho**
