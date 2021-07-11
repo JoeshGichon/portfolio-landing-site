@@ -148,21 +148,22 @@ html{
 }
 .about-me-container h2{
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 1.8rem;
     font-weight: 700;
 }
-.about-me-container div{
+#about-description{
     display: flex;
-    align-items: center;
+    float: right;
+    position: relative;
+    top: -220px;
+    left: -150px;
 }
 .about-me-container img{
     height: 300px;
     width: auto;
     border-radius: 50%;
-}
-.about-me-container p{
-    text-align: center;
+    margin-left: 100px;
 }
 /* ----------------End About Styles Section-------------------- */
 
