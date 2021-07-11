@@ -129,6 +129,16 @@ html{
     padding: 10px 0 10px 10px;
     margin: 10px 0 10px 0;
 }
+.project-item button{
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+.project-item button:hover{
+    background-color: crimson;
+}
+.project-item button a{
+    color: white;
+}
 .project-item h3{
     text-transform: uppercase;
     text-align: center;
