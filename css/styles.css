@@ -53,7 +53,7 @@ html{
 .introduction-container{
     position: absolute;
     text-align: center;
-    top: 200px;
+    top: 150px;
     z-index: -1;
 }
 #greetings h1{
@@ -74,12 +74,13 @@ html{
 /* ------------Services Styles Section-------------------------- */
 .services-container{
     position: absolute;
-    top: 470px;
+    top: 400px;
     display: flex;
     z-index: -1;
+    left: 5%;
 }
 #service-header{
-    margin-top: 50px;
+    /* margin-top: -10px; */
     height: fit-content;
     padding: 10px;
     text-align: center;
@@ -88,6 +89,9 @@ html{
     box-shadow: 2px 2px 3px grey;
     padding: 10px;
     margin: 0 20px;
+    border-left: 2px solid crimson;
+    border-top: 2px solid crimson;
+    border-radius: 10px;
 }
 .services-container div h2{
     text-align: center;
@@ -120,6 +124,7 @@ html{
     position: relative;
     left: 500px;
     margin-left: -70px;
+    margin-top: -30px;
 }
 .projects-container img{
     height: 200px;
@@ -128,6 +133,11 @@ html{
 .project-item{
     padding: 10px 0 10px 10px;
     margin: 10px 0 10px 0;
+    box-shadow: 2px 2px 3px grey;
+    border-radius: 5px;
+    border-top: 2px solid crimson;
+    border-left: 2px solid crimson;
+    margin-right: 20px;
 }
 .project-item button{
     margin-left: 30%;
@@ -161,6 +171,7 @@ html{
     text-transform: capitalize;
     font-size: 1.8rem;
     font-weight: 700;
+    margin-top: 30px;
 }
 #about-description{
     display: flex;
@@ -187,6 +198,10 @@ html{
     display: flex;
     justify-content: space-around;
     box-shadow: 2px 2px 3px grey;
+    border-top: 2px solid crimson;
+    border-left: 2px solid crimson;
+    border-radius: 5px;
+    margin-left: 10%;
 }
 .contact-container div h3{
     text-align: center;
